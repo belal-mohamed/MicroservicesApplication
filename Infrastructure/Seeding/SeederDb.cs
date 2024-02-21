@@ -21,7 +21,7 @@ namespace PlatformService.Infrastructure.Seeding
 
         private static void SeedPlatforms(AppDbContext? dbContext)
         {
-            if (dbContext!.Platforms.Any())
+            if (!dbContext!.Platforms.Any())
                 dbContext
                     .Platforms
                     .AddRange(new List<Platform>()
