@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+
+.git
+/.vs/PlatformService/FileContentIndex/e47850cb-2d4f-4629-9026-b9856d6d0f61.vsidx
